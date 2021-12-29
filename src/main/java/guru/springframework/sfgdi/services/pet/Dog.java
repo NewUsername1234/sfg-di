@@ -1,4 +1,4 @@
-package guru.springframework.sfgdi.services;
+package guru.springframework.sfgdi.services.pet;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
  */
 @Service("petService")
 @Profile("dog")
-public class DogPetService implements PetService{
+public class Dog implements PetService {
     public String getPetType(){
         return "Dogs are the best!";
     }

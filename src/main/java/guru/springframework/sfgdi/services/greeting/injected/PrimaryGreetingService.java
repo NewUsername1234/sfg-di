@@ -1,5 +1,6 @@
-package guru.springframework.sfgdi.services;
+package guru.springframework.sfgdi.services.greeting.injected;
 
+import guru.springframework.sfgdi.services.greeting.GreetingService;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
